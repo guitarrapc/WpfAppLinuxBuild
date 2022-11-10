@@ -33,4 +33,4 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: WpfApp-${{ matrix.rid }}${{ matrix.self }}
-          path: ./src/LinuxBuild/WpfApp/bin/Release/net7.0-windows/${{ matrix.rid }}/publish/
+          path: ./WpfApp/bin/Release/net7.0-windows/${{ matrix.rid }}/publish/
